@@ -28,9 +28,7 @@ jobs:
         
     - name: Build Application JAR
       working-directory: ./rest-api/api_rest-1
-      run: |
-       mvn clean package -DskipTests
-       pwd
+      run: ls
     - name: Docker Compose Build
       working-directory: ./rest-api
       run: docker compose build
