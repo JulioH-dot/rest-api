@@ -27,7 +27,7 @@ jobs:
         cache: maven
         
     - name: Build Application JAR
-      working-directory: ./rest-api/projetos/api_rest-1
+      working-directory: ./rest-api/api_rest-1
       run: mvn clean package -DskipTests
       
     - name: Docker Compose Build
