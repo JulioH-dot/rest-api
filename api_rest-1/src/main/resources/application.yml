@@ -2,8 +2,6 @@ server:
   port: 80
 cors:
   originPatterns: http://localhost:8080,http://localhost:3000,http://localhost:4200,http://localhost:80
-file:
-  upload-dir: /home/runner/work/rest-api/api_rest-1/upload-dir
 security:
   jwt:
     token:
